@@ -99,13 +99,13 @@ small {
 .main {
 	height: inherit;
 	flex: 1 1 auto;
-	padding: 30vh 0vh 30% 40vh;
+	margin: 30vh auto 44vh auto;	
 }
 .main__container {
 	height: inherit;
 	display: flex;
 	flex-direction: row;
-	max-width: 600px;
+	max-width: 300px;	
 }
 ._container {
 }
