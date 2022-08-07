@@ -64,6 +64,11 @@ small {
 	box-sizing: content-box;
 }
 
+.anchor {
+	position: relative;
+    top: -40vh;
+}
+
 /*Header------------------------------------------------------------------------------------------ */
 .header {
 	position: relative;
