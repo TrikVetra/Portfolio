@@ -35,7 +35,7 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
-a:visited{text-decoration: none; color: #47DEFF;}
+a:visited{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
 
 /* General------------------------------------------------------------------------------------- */
 strong {
-	color: #47DEFF;
+	color: #47DEFF !important;
 	font-weight: 400;
 }
 
@@ -141,6 +141,9 @@ small {
 .first_custom_tab_item {
 	position: relative;
 	left: 147px;
+}
+.item_link, .item_link:visited {
+	color: inherit;
 }
 /* ------------------------------------------------------------------------------------------- */
 
