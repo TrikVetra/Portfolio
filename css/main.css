@@ -96,9 +96,9 @@ small {
 .menu__item:not(:last-child) {
 	margin: 0px 15px 0px 0px;
 }
-.menu__link {
+.menu__link, .menu__link:visited {
 	font-size: 80%;
-	color: inherit;	
+	color: white;	
 }
 /* ------------------------------------------------------------------------------------------- */
 
